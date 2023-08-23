@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Motion | Move With Style</title>
+        <link rel="stylesheet" type="text/css" href="./css/normal.css">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Codecademy, HTML, CSS">
+        <meta name="description" content="Motion is a business startup retailer company that sells trendy socks. This training project, prepared by Codecademy has been an invaluable exercise in enhancing my knowledge on the application of CSS flexbox.">
+        <meta name="author" content="Daniel Labrador">
+        <!--<meta http-equiv="refresh" content="30">-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="script/index.js" async></script>
+    </head>
+    <body>
+
+
+        <!--------------  HEADER  ----------------->
+        <header>
+            <div class="mobile">
+                <div class="header-top">
+                    <a href=""><div class="icons mobile"><img src="./img/search.svg" alt="logo"></div></a>
+                    <a href="#"><div class="mobile-desktop logo">
+                        <img src="./img/black-icon.svg" alt="logo"><span>MOT<br>ION</span></div>
+                    </a>
+                        <a href=""><div class="icons mobile-desktop"><img src="./img/cart.svg" alt="logo"></div></a>
+                </div>
+                <nav><ul>
+                    <a class="bold" href="#"><li>Men</li></a>
+                    <a class="bold" href="#"><li>Women</li></a>
+                    <a class="bold" href="#"><li>Kids</li></a>
+                    <a class="" href="#"><li>Styles</li></a>
+                    <a class="" href="#"><li>Brands</li></a>
+                </ul></nav>
+            </div>
+
+            <div class="desktop">
+                <div class="header-top">
+                    <a href="#"><div class="mobile-desktop logo">
+                        <img src="./img/black-icon.svg" alt="logo"><span>MOT<br>ION</span></div>
+                    </a>
+                    <nav><ul>
+                        <a class="bold" href="#"><li>Men</li></a>
+                        <a class="bold" href="#"><li>Women</li></a>
+                        <a class="bold" href="#"><li>Kids</li></a>
+                        <a class="" href="#"><li>Styles</li></a>
+                        <a class="" href="#"><li>Brands</li></a>
+                    </ul></nav>
+                    <div class='icon-container'>                        
+                        <div class="icons" id="search-bar"><input id="search-input" type="text" placeholder="Search"><img src="./img/search.svg" alt="logo"></div>
+                        <a href=""><div class="icons mobile-desktop"><img src="./img/cart.svg" alt="logo"></div></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        
+        <!---------------  MAIN  ------------------>
+
+        <main>
+            <!-- Feature -->
+            <section id="feature">
+                <div class="max-width">
+                    <h2>RunMax<span>&trade;</span></h2>
+                    <p>Next generation socks that boosts your performance and keeps your feet odor-free while not compromising comfort</p>
+                    <div class="button-container"><button>Shop Now</button></div>
+            </section>
+
+            <!-- Company -->
+            <section id="about">
+                <div id="company" class="max-width">
+                    <h1>Motion</h1>
+                    <p>Motion Essentials is home for stylistic shoes and socks that promotes confidence and comfort. These days, fashion becomes one of the top considerations of an individual in showing one’s interest, taste and mood. However, not everyone has the confidence to show off their style, to wear what really represents them, and to comfortably express themselves. As a result, Motion supplements one’s confidence and boost anyone’s competence through a pair of trendy iconic shoes and socks. The business offers sets of socks with various designs such as classic paintings, remarkable icons, cartoon characters, heroes, animal prints and food designs among others.</p>
+                </div>
+            </section>
+        
+            <!-- Popular -->
+            <section id="popular">
+                <div id="popular-feature-box" class="feature-box max-width">
+                    <div class="box">
+                        <div>
+                            <button>Socks</button>
+                        </div>
+                        <img src="./img/sock-3.jpg" alt="featured socks along the stairs">
+                    </div>
+                    <div class="box">
+                        <div>
+                            <button>Shoes</button>
+                        </div>
+                        <img src="./img/sock-1.jpg" alt="featured socks along the stair railings">
+                    </div>
+                </div>
+                <div class="popular-selection-container">
+                    <h2>Popular Right Now</h2>
+                    <div class="popular-buttons">
+                        <a href="#"><div>⭐ Starry Night Socks</div></a>
+                        <a href="#"><div>Sneakers</div></a>
+                        <a href="#"><div>Sports</div></a>
+                        <a href="#"><div>Abstract</div></a>
+                        <a href="#"><div>Animals</div></a>
+                        <a href="#"><div>Classical Art</div></a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- What's Hot -->
+            <section id="hot">
+                <h2>What's Hot</h2>
+                <div id="hot-feature-box" class="feature-box">
+                    <div class="box">
+                        <div>
+                            <button>Shop</button>
+                        </div>
+                        <img src="./img/hot-1.jpg" alt="featured socks along the stairs">
+                    </div>
+                    <div class="box">
+                        <div>
+                            <button>Shop</button>
+                        </div>
+                        <img src="./img/hot-2.jpg" alt="featured socks along the stair railings">
+                    </div>
+                    <div class="box">
+                        <div>
+                            <button>Shop</button>
+                        </div>
+                        <img src="./img/hot-3.jpg" alt="featured socks along the stair railings">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Team -->
+            <section id="team">
+                <h2>About the Team</h2>
+                <div id="team-feature-box" class="feature-box">
+                    <div class="box">
+                        <div class="team-member">
+                            <h3>Chenee Lyn Yson</h3>
+                            <p>CEO</p>
+                        </div>
+                        <img src="./img/team-2.svg" alt="Chenee's Avatar">
+                    </div>
+                    <div class="box">
+                        <div class="team-member">
+                            <h3>Daniel Labrador</h3>
+                            <p>Marketing and Sales Head</p>
+                        </div>
+                        <img src="./img/team-1.svg" alt="Daniel's Avatar">
+                    </div>
+                    <div class="box">
+                        <div class="team-member">
+                            <h3>Emmanuelle Maza</h3>
+                            <p>Operations Head</p>
+                        </div>
+                        <img src="./img/team-4.svg" alt="Emmanuelle's Avatar">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+
+
+        <!--------------  FOOTER  ----------------->
+        <footer>
+            <!-- Aside -->
+            <aside>
+                <div class="max-width">
+                    <p>Register your email for news and special offers</p>
+                    <div class="black-button-container"><button>Sign Up for Newsletter</button></div>
+                </div>
+            </aside>
+
+            <!-- Bottom Nav -->
+            <nav>
+                <div>
+                    <h3>PRODUCTS</h3>
+                    <ul>
+                        <a href=""><li>For Men</li></a>
+                        <a href=""><li>For Women</li></a>
+                        <a href=""><li>For Kids</li></a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>SPORTS</h3>
+                    <ul>
+                        <a href=""><li>Socks</li></a>
+                        <a href=""><li>Shoes</li></a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>STYLES</h3>
+                    <ul>
+                        <a href=""><li>Cartoons</li></a>
+                        <a href=""><li>Abstract</li></a>
+                        <a href=""><li>Sports</li></a>
+                        <a href=""><li>Animals</li></a>
+                        <a href=""><li>Classical Arts</li></a>
+                        <a href=""><li>Plain</li></a>
+                    </ul>
+                </div>
+                <div>
+                    <h3>COMPANY INFO</h3>
+                    <ul>
+                        <a href=""><li>About Us</li></a>
+                        <a href=""><li>Careers</li></a>
+                        <a href=""><li>Press</li></a>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Credits -->
+            <div id="credits">
+                <div class="max-width">
+                    <ul>
+                        <li><a href="#">Data Protection</a></li>
+                        <li class="divider"> | </li>
+                        <li><a href="#">General Terms & Conditions</a></li>
+                        <li class="divider"> | </li>
+                        <li><a href="https://github.com/daniellabrador/codecademy-motion_home_page#project-prompt">Codecademy Project by Daniel Labrador</a></li>
+                        <li class="divider"> | </li>
+                        <li>&copy; <a href="#">2021 Motion Essentials Inc.</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

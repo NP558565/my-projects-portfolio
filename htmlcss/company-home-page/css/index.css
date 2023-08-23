@@ -1,0 +1,664 @@
+/*----- Fonts -----*/
+
+/* Adihaus */
+@font-face {
+    font-family: 'Adihaus';
+    src:    url('../fonts/AdihausDIN\ Bold.woff2') format('woff2'),
+            url('../fonts/AdihausDIN\ Bold.woff') format('woff'),
+            url('../fonts/AdihausDIN\ Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Adihaus';
+    src:    url('../fonts/AdihausDIN\ Regular.woff2') format('woff2'),
+            url('../fonts/AdihausDIN\ Regular.woff') format('woff'),
+            url('../fonts/AdihausDIN\ Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Adineue */
+@font-face {
+    font-family: 'Adineue';
+    src:    url('../fonts/adineuePRO\ Bold.woff2') format('woff2'),
+            url('../fonts/adineuePRO\ Bold.woff') format('woff'),
+            url('../fonts/adineuePRO\ Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Code New Roman*/
+@font-face {
+    font-family: 'Code';
+    src:    url('../fonts/CodeNewRoman\ Bold.woff2') format('woff2'),
+            url('../fonts/CodeNewRoman\ Bold.woff') format('woff'),
+            url('../fonts/CodeNewRoman\ Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+/*----- Universal -----*/
+* {
+    top: 0;
+    left: 0;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Adihaus', Arial, Helvetica, sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/*----- Header-----*/
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 0 20px #00000062;
+    z-index: 10;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+header .header-top .icons {
+    height: 1.25rem;
+    padding: 0 1.25rem;
+}
+
+header .logo {
+    display: flex;
+    height: 2.75rem;
+    padding: .50rem 0;
+    text-align: center;
+}
+
+header .logo span {
+    margin: auto 0 auto 7px;
+    padding-top: 3px;
+    font-family: Code,'Courier New', Courier, monospace;
+    font-weight: 900;
+    letter-spacing: -0.015rem;
+    font-size: 1.1rem;
+    line-height: .85rem;
+    color: black;
+}
+
+header img {
+    height: 100%;
+}
+
+header .desktop {
+    display: none;
+}
+
+header nav {
+    background-color: #3f4d64;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul a {
+    text-decoration: none;
+}
+
+header nav ul a:hover {
+    background-color: #697790;
+}
+
+header nav ul a li {
+    margin: 0;
+    padding: 0.5rem;
+    list-style: none;
+    color: white;
+}
+
+@media only screen and (min-width: 800px) {
+    header .mobile {
+        display: none;
+    }
+
+    header .desktop {
+        width: 100%;
+        display: flex;
+        padding: 0 1.25rem;
+        background-color: white;
+    }
+
+    header .desktop .header-top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    header .desktop .header-top .logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    header .desktop .header-top nav ul a {
+        display: flex;
+        height: 3.75rem;
+        background-color: white;
+    }
+
+    header .desktop .header-top nav ul a:hover {
+        background-color: rgb(240, 240, 240);
+    }
+
+    header .desktop .header-top nav ul a li {
+        margin: auto 0;
+        color: black;
+    }
+
+    header .desktop .header-top .icon-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 2.5rem;
+    }
+
+    header .desktop .header-top .icon-container .icons {
+        padding: 0;
+    }
+
+    header .desktop .header-top .icon-container #search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 11rem;
+        height: 2rem;
+        background-color: rgb(228, 228, 228);
+    }
+    header .desktop .header-top .icon-container #search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-right: 1.25rem;
+        width: 11rem;
+        height: 2rem;
+        background-color: rgb(228, 228, 228);
+    }
+
+    header .desktop .header-top .icon-container #search-bar input {
+        width: 8.25rem;
+        border: 0;
+        background-color: rgb(228, 228, 228);
+    }
+
+    header .desktop .header-top .icon-container #search-bar img{
+        height: 1.25rem;
+        margin-right: 0.5rem;
+    }
+    header .desktop .header-top .icon-container #search-bar input:focus {
+        outline: none;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) {
+    header .desktop .header-top .logo {
+        width: 16rem;
+    }
+}
+
+
+
+
+
+
+
+
+/*----- Main -----*/
+main {
+    margin-top: 5.875rem;
+}
+
+@media only screen and (min-width: 800px) {
+    main {
+        margin: 3.75rem auto 0;
+    }
+}
+
+/* Common Elements */
+.feature-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-box .box {
+    position: relative;
+    width: 90%;
+    margin: 0 5% 5% 5%;
+}
+
+.feature-box .box img {
+    width: 100%;
+}
+
+.feature-box .box div {
+    position: absolute;
+    display: block;
+    margin-left: -4rem;
+    top: auto;
+    bottom: 3.5rem;
+    left: 50%;
+    right: auto;
+}
+
+.feature-box .box div button {
+    position:relative;
+    font-family: Adihaus, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 7rem;
+    font-size: 1.25rem;
+    padding: .75rem;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+    background-color: #DD0426;
+}
+
+.max-width {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+/* Feature */
+
+#feature {
+    background-image: linear-gradient(#00000000,#00000000, #000000), url('../img/feature-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+#feature .max-width {
+    height: 30rem;
+    padding: 3rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#feature h2 {
+    padding: 0;
+    margin: 0;
+    font-family: Adineue, Helvetica, sans-serif;
+    font-size: 3rem;
+}
+
+#feature h2 span {
+    font-family: Adihaus, Helvetica, sans-serif;
+    font-size: 1rem;
+    vertical-align: top;
+}
+
+#feature p {
+    padding: 0;
+    margin: .25rem 0;
+    max-width: 35rem;
+    font-family: Adihaus, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+#feature .button-container {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    margin: .5rem 0;
+    border: 1px solid white;
+}
+
+#feature .button-container button {
+    position: relative;
+    top: -5px;
+    left: -5px;
+    padding: .85rem;
+    border-radius: 0;
+    border: 0px;
+    text-transform: uppercase;
+    font-family: Adineue, Helvetica, sans-serif;
+    font-size: .8rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+#feature .button-container button:hover {
+    top: 0;
+    left: 0;
+}
+
+.feature-box .box div button:hover {
+    background-color: #F02D3A;
+}
+
+.feature-box .box div button:active {
+    background-color: #DD0426;
+}
+
+
+@media only screen and (min-width: 800px){
+    .feature-box {
+        flex-direction: row;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .box {
+        margin: 0 1rem 2rem !important;
+    }
+}
+
+/* Company */
+#about {
+    background-color: white;
+}
+
+#company {
+    padding: 2.5rem 1rem .5rem 1rem;
+    text-align: center;
+}
+
+#company h1 {
+    margin: 0;
+    font-family: Adineue, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#company p {
+    margin: 0.75rem 0 1.25rem 0;
+    line-height: 1.5rem;
+}
+
+/* Popular */
+#popular-feature-box {
+    background-color: white;
+}
+
+.popular-selection-container {
+    padding: 1rem 3rem 3rem 3rem;
+    background-color: white;
+}
+
+.popular-selection-container h2 {
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.popular-selection-container .popular-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.popular-selection-container .popular-buttons a {
+    text-decoration: none;
+}
+
+.popular-selection-container .popular-buttons a div {
+    padding: .75rem;
+    border: 1px solid rgb(211, 215, 218);
+    margin: .5rem;
+    color: black;
+}
+
+.popular-selection-container .popular-buttons a div:hover {
+    background-color: rgb(211, 215, 218);
+}
+
+/* Hot */
+#hot {
+    background-color: #273043;
+    padding: 4rem 0 1rem;
+}
+
+@media only screen and (min-width:800px) {
+    #hot {
+        padding: 4rem 0 !important;
+    }    
+}
+
+#hot h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 1rem;
+    color: white;
+}
+
+#hot .feature-box .box {
+    margin: 0 10% 10%;
+    width: 80%;
+    border-radius: 4%;
+    overflow: hidden;
+}
+
+#hot .feature-box .box button {
+    width: 9rem;
+    background-color: black;
+}
+
+#hot .feature-box .box button:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+/* Team */
+#team {
+    padding: 4rem 4rem 0;
+    background-color: white;
+}
+
+@media only screen and (min-width:800px) {
+    #team {
+        padding: 4rem !important;
+    }    
+}
+
+#team h2 {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#team .box {
+    margin-top: 1rem;
+    margin: 0 15% 15%;
+    width: 70%;
+}
+
+#team .box .team-member {
+    text-align: center;
+    width: 15rem;
+    margin-left: -7.5rem;
+    bottom: 1.5rem;
+    padding: 0.5rem 0;
+    color: white;
+    background-color: #DD0426;
+}
+
+#team .box .team-member h3 {
+    margin: 0;
+    padding-bottom: 0.15rem;
+}
+
+#team .box .team-member p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*----- Footer-----*/
+aside {
+    padding: 1.5rem 1.25rem 1.75rem;
+    background-color: #F02D3A;
+}
+
+aside p {
+    font-family: Adineue, Helvetica, sans-serif;
+    font-size: 1.625rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+aside .black-button-container {
+    position: relative;
+    top: .35rem;
+    left: .35rem;
+    display: inline-block;
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+
+aside button {
+    position: relative;
+    top: -.35rem;
+    left: -.35rem;
+    padding: 0 1.3125rem;
+    font-family: Adihaus, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 3.125rem;
+    border: 0;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+aside button:hover {
+    top: 0rem;
+    left: 0rem;
+}
+
+@media only screen and (min-width: 800px) {
+    aside .max-width {
+        padding: 2rem;
+    }
+}
+
+footer nav {
+    display: none;
+}
+
+@media only screen and (min-width: 800px) {
+    footer nav {
+        margin: 2rem auto;
+        max-width: 1000px;
+        display: flex;
+        background-color: #ffffff;
+    }
+
+    footer nav div {
+        margin: 0 2rem;
+    }
+
+    footer nav ul {
+        padding: 0;
+    }
+
+    footer nav ul a {
+        text-decoration: none;
+        color: black;
+    }
+
+    footer nav ul a li {
+        list-style: none;
+        margin-top: 0.5rem;
+    }
+}
+
+#credits {
+    padding: 0.8125rem 0 0.75rem;
+    background-color: #273043
+}
+
+#credits ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#credits ul li {
+    font-size: 0.75rem;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+#credits ul li a {
+    text-decoration: none;
+    line-height: 2rem;
+    color: white;
+}
+
+#credits ul .divider {
+    display: none;
+    line-height: 2rem;
+}
+
+@media only screen and (min-width: 800px) {
+    #credits ul {
+        flex-direction: row;
+        justify-content: flex-end;
+        margin-right: 1rem;
+    }
+
+    #credits ul li {
+        margin: 0 .25rem;
+    }
+
+    #credits ul .divider {
+        display: flex;
+    }
+}
