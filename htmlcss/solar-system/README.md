@@ -9,4 +9,7 @@
 
  Link:<br>
  https://np-solarsystem.netlify.app/
+<img width="868" alt="solar-system" src="https://github.com/NP558565/my-projects-portfolio/assets/76566329/50debd53-532c-4327-8c18-3e3474d61501">
+
+ 
  
