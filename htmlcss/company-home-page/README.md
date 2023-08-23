@@ -34,5 +34,7 @@ Link:<br>
 https://company-home-page.netlify.app/
 
 Screenshot:<br>
+<img width="923" alt="company-home-page" src="https://github.com/NP558565/my-projects-portfolio/assets/76566329/ef2c0ecc-189e-4b40-9a1e-408ea73b366e">
+
 
 
