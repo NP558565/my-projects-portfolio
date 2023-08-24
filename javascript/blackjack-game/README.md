@@ -33,4 +33,6 @@ https://np55-blackjack-game.netlify.app/
 </ul>
 
 Screenshot:<br>
+<img width="823" alt="blackjack-game" src="https://github.com/NP558565/my-projects-portfolio/assets/76566329/cc3cd5c8-0ed8-41ab-85a9-ab693ccf3a57">
+
 
