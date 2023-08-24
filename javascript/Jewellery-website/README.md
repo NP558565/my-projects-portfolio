@@ -12,4 +12,8 @@ Technologies:<br>
 Link:<br>
 https://np-jewellery-website.netlify.app/
 
+Screenshot:<br>
+<img width="808" alt="jewellery-website" src="https://github.com/NP558565/my-projects-portfolio/assets/76566329/b81840f3-6b1a-44e7-87cf-301eaeccab62">
+
+
 
