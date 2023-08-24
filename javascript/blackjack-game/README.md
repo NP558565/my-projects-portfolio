@@ -1,5 +1,5 @@
 
-Link:
+Link:<br>
 https://np55-blackjack-game.netlify.app/
 
 <h2>A simple Blackjack game written in HTML5, CSS, and Javascript.</h2>
