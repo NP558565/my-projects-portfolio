@@ -1,16 +1,16 @@
 # GitHub Repo Gallery
 Gallery of all my public GitHub repos.
 
-Features
-Use GitHub API to access a user's profile and repo information
-Access to specific information for each repo
-Search for specific repo
-Technologies Used
-HTML
-CSS
-JavaScript
-Fetch API
-Acknowledgements
+Features:<br>
+Use GitHub API to access a user's profile and repo information<br>
+Access to specific information for each repo<br>
+Search for specific repo<br>
+Technologies Used:<br>
+HTML<br>
+CSS<br>
+JavaScript<br>
+Fetch API<br>
+Acknowledgements:<br>
 Project idea: Skillcrush HTML & CSS provided by: Skillcrush
 
 Link:<br>
