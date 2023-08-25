@@ -23,6 +23,8 @@
 Using custom hooks in React and utilizing several useful components in MUI in regards to the Sliding animations and custom buttons, etc. Also learned logical problem solving which was the biggest aspect of completing this challenge especially when making the CPU AI and having it be somewhat intelligent.
 
 Screenshot:<br>
+![connect-four-screenie](https://github.com/NP558565/my-projects-portfolio/assets/76566329/66469875-0f0f-4116-be16-e9367d76d6a4)
+
 
 
 
