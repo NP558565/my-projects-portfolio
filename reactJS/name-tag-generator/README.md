@@ -21,5 +21,5 @@ Create name tags for you and your friends!
 Project idea: [Skillcrush](https://skillcrush.com)
 Original HTML & CSS provided by: [Skillcrush](https://skillcrush.com)
 
-
 Screenshot:<br>
+![Capture](https://github.com/NP558565/my-projects-portfolio/assets/76566329/5462e830-b744-4f0c-9ec8-a5aac559c308)
