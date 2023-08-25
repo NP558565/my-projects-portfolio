@@ -30,5 +30,6 @@ Users are able to:
 https://e-commerce-shop-six.vercel.app/
 
 Screenshot:<br>
-<img width="911" alt="ecommerce-shop" src="https://github.com/NP558565/E-commerce-shop/assets/76566329/aff87792-a624-41dc-b140-3d76a8b06c4d">
+<img width="911" alt="ecommerce-shop" src="https://github.com/NP558565/my-projects-portfolio/assets/76566329/aa31a05f-06a5-43c6-9b69-eb577db45580">
+
 
