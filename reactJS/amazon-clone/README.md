@@ -69,3 +69,6 @@ Deployed on Firebase
 - then go firebase -> Functions grab the api link inside paste into axios
 - cd to amazon-clone: `npm run build`
 - `firebase deploy --only hosting`
+
+  Screenshot:<br>
+  <img width="941" alt="amazon-clone" src="https://github.com/NP558565/my-projects-portfolio/assets/76566329/f5e9b8b3-815e-4b71-a0d5-3511c57beed6">
