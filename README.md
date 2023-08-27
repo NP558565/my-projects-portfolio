@@ -2,6 +2,6 @@
 
 ## Project Description
 
-This website lists the rest of the projects that i have completed,<br>
+This REPO lists the rest of the projects that I have completed,<br>
 in my Developer Path learning.
 
