@@ -7,5 +7,6 @@
  https://stocks-profit-loss2.netlify.app/
 
 Screenshot:<br>
+<img width="855" alt="stocks" src="https://github.com/NP558565/my-projects-portfolio/assets/76566329/99c0ae9d-8b5f-4511-804d-5dc54817bc46">
 
 
